@@ -8,7 +8,7 @@ const Footer = () => {
     <FooterSection className="FooterSection">
       <Container className="footerContainer">
         <SubContainer className="project">
-          <Title>NextJS Template 2021</Title>
+          <Title>Styled Tools 2021</Title>
         </SubContainer>
 
         <SubContainer className="developer">

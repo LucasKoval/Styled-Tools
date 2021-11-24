@@ -53,7 +53,7 @@ const Header = () => {
         </ul>
       </ImageContainer>
 
-      <Title onClick={() => goHome()}>NextJS Template</Title>
+      <Title onClick={() => goHome()}>Styled Tools</Title>
 
       <ImageContainer className="themeToogle" onClick={() => themeToggler()}>
         <Image

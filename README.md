@@ -1,4 +1,4 @@
-# NextJS Template (2021)
+# Styled Tools (2021)
 
 Developed by [Lucas Koval](https://lucaskovaldev.com/).
 

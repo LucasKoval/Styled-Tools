@@ -7,6 +7,7 @@ export default function Page2() {
       <Subtitle>Subtitle</Subtitle>
       <PageContainer className="PageContainer">
         <h1>Page 2</h1>
+        <h3>Sin conflictos</h3>
       </PageContainer>
     </MainSection>
   )

@@ -20,8 +20,8 @@ const Header = () => {
     toast.success('Welcome Home!')
   }
 
-  const goToPage = (id) => {
-    router.push(`/page${id}`)
+  const goToPage = (section) => {
+    router.push(`/${section}`)
   }
 
   return (
@@ -38,13 +38,13 @@ const Header = () => {
             <IoHomeOutline />
             <li>Home</li>
           </a>
-          <a onClick={() => goToPage('1')}>
+          <a onClick={() => goToPage('clothing-card')}>
             <IoDocumentTextOutline />
-            <li>Page 1</li>
+            <li>Clothing Card</li>
           </a>
-          <a onClick={() => goToPage('2')}>
+          <a onClick={() => goToPage('recycle-bin')}>
             <IoDocumentTextOutline />
-            <li>Page 2</li>
+            <li>Recycle Bin</li>
           </a>
           <a onClick={() => goToPage('3')}>
             <IoDocumentTextOutline />

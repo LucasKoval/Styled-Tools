@@ -2,27 +2,27 @@ import React from 'react'
 import { MainSection, PageContainer, Subtitle } from '@/styles/globalStyles'
 import { SportCard } from '@/components/Cards/styles'
 
-export default function Page1() {
+const ClothingCard = () => {
   return (
     <MainSection className="MainSection">
-      <Subtitle>Sports Shopping Card</Subtitle>
+      <Subtitle>Clothing Purchase Card</Subtitle>
       <PageContainer className="cards">
         <SportCard>
-          <div class="container">
-            <div class="card">
-              <div class="imgBx">
+          <div className="container">
+            <div className="card">
+              <div className="imgBx">
                 <img src="https://assets.codepen.io/4164355/shoes.png" />
               </div>
-              <div class="contentBx">
+              <div className="contentBx">
                 <h2>Nike Shoes</h2>
-                <div class="size">
+                <div className="size">
                   <h3>Size :</h3>
                   <span>7</span>
                   <span>8</span>
                   <span>9</span>
                   <span>10</span>
                 </div>
-                <div class="color">
+                <div className="color">
                   <h3>Color :</h3>
                   <span></span>
                   <span></span>
@@ -35,21 +35,21 @@ export default function Page1() {
         </SportCard>
 
         <SportCard>
-          <div class="container container-blue">
-            <div class="card card-blue">
-              <div class="imgBx">
+          <div className="container container-blue">
+            <div className="card card-blue">
+              <div className="imgBx">
                 <img src="https://assets.codepen.io/4164355/shoes.png" />
               </div>
-              <div class="contentBx contentBx-blue">
+              <div className="contentBx contentBx-blue">
                 <h2>Nike Shoes</h2>
-                <div class="size">
+                <div className="size">
                   <h3>Size :</h3>
                   <span>7</span>
                   <span>8</span>
                   <span>9</span>
                   <span>10</span>
                 </div>
-                <div class="color color-blue">
+                <div className="color color-blue">
                   <h3>Color :</h3>
                   <span></span>
                   <span></span>
@@ -62,21 +62,21 @@ export default function Page1() {
         </SportCard>
 
         <SportCard>
-          <div class="container container-coral">
-            <div class="card card-coral">
-              <div class="imgBx">
+          <div className="container container-coral">
+            <div className="card card-coral">
+              <div className="imgBx">
                 <img src="https://assets.codepen.io/4164355/shoes.png" />
               </div>
-              <div class="contentBx contentBx-coral">
+              <div className="contentBx contentBx-coral">
                 <h2>Nike Shoes</h2>
-                <div class="size">
+                <div className="size">
                   <h3>Size :</h3>
                   <span>7</span>
                   <span>8</span>
                   <span>9</span>
                   <span>10</span>
                 </div>
-                <div class="color color-coral">
+                <div className="color color-coral">
                   <h3>Color :</h3>
                   <span></span>
                   <span></span>
@@ -91,3 +91,5 @@ export default function Page1() {
     </MainSection>
   )
 }
+
+export default ClothingCard

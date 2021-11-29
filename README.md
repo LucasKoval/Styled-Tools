@@ -4,7 +4,7 @@ Developed by [Lucas Koval](https://lucaskovaldev.com/).
 
 ## `APP URL`
 
-[https://nextjs-template-lkdev.vercel.app/](https://nextjs-template-lkdev.vercel.app/)
+[https://styled-tools-lkdev.vercel.app/](https://styled-tools-lkdev.vercel.app/)
 
 ## `Available Scripts`
 

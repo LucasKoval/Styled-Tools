@@ -34,8 +34,8 @@ function MyApp({ Component, pageProps, token }) {
   return (
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <Head>
-        <title>NextJS Template</title>
-        <meta name="description" content="NextJS Template developed by Lucas Koval" />
+        <title>Styled Tools</title>
+        <meta name="description" content="Styled Tools collection developed by Lucas Koval" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <GlobalStyle />
